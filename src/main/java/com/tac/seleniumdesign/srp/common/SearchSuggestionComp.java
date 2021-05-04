@@ -1,5 +1,6 @@
-package com.tac.seleniumdesign.srp;
+package com.tac.seleniumdesign.srp.common;
 
+import com.tac.seleniumdesign.srp.common.AbstractComponent;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -9,7 +10,7 @@ import java.util.List;
 /**
  * @author senthil
  */
-public class SearchSuggestionComp extends AbstractComponent{
+public class SearchSuggestionComp extends AbstractComponent {
 
     @FindBy(css = "li.sbct")
     private List<WebElement> suggestions;
