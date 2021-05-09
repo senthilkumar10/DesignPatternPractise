@@ -17,6 +17,7 @@ public class BaseTest {
     public void setDriver(){
         WebDriverManager.chromedriver().setup();
         this.driver = new ChromeDriver();
+        this.driver.manage().window().maximize();
     }
 
     @AfterTest
