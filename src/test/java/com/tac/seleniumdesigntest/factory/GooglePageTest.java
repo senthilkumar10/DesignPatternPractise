@@ -29,6 +29,7 @@ public class GooglePageTest extends BaseTest {
                 {"ENG","Selenium"},
                 {"FR","Selenium"},
                 {"ARABIC","Selenium"},
+                {"SPANISH","Selenium"},
         };
     }
 
